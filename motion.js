@@ -19,7 +19,7 @@ function addRibbon(){
  const place=document.querySelector('.nova-hero,.home-hero,.page-heading');
  const page=location.pathname.split('/').pop()||'index.html';
  if(!place||!['index.html','leistungen.html'].includes(page)||document.querySelector('.motion-ribbon'))return;
- const ribbon=document.createElement('section');ribbon.className='motion-ribbon';ribbon.setAttribute('aria-label','Druck. Plakatierung. Tickets. Münster.');
+ const ribbon=document.createElement('section');ribbon.className='motion-ribbon';ribbon.setAttribute('aria-label',window.PLAKATWERK_FEATURES?.eventsAndTickets?'Druck. Plakatierung. Tickets. Münster.':'Druck. Plakatierung. Münster.');
  const text='<span>DEIN EVENT</span><i aria-hidden="true">↗</i><span>UNSERE STADT</span><i aria-hidden="true">✳</i><span>DEIN PUBLIKUM</span><i aria-hidden="true">↗</i>';
  ribbon.innerHTML='<div class="ribbon-window" aria-hidden="true"><div class="ribbon-track"><div class="ribbon-group">'+text+'</div><div class="ribbon-group">'+text+'</div></div></div><button class="ribbon-toggle" type="button" aria-label="Laufschrift pausieren" aria-pressed="false">Ⅱ</button>';
  place.after(ribbon);const button=ribbon.querySelector('button');button.onclick=()=>{const paused=ribbon.classList.toggle('paused');button.textContent=paused?'▶':'Ⅱ';button.setAttribute('aria-label',paused?'Laufschrift starten':'Laufschrift pausieren');button.setAttribute('aria-pressed',String(paused));};

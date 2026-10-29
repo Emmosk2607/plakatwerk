@@ -1,3 +1,4 @@
+import {eventsEnabled} from './features.js';
 import {esc,money,date,api,customer,csrf,loadCustomer,uploadFile,bookingHTML} from './platform-ui.js';
 const $=s=>document.querySelector(s);
 const page=location.pathname.split('/').pop()||'index.html';
@@ -64,6 +65,7 @@ function search(){if(!searchDialog){searchDialog=document.createElement('dialog'
  input.oninput=update;input.onkeydown=ev=>{if(ev.key==='ArrowDown'||ev.key==='ArrowUp'){ev.preventDefault();if(!searchResults.length)return;selectedSearch=(selectedSearch+(ev.key==='ArrowDown'?1:-1)+searchResults.length)%searchResults.length;draw();}else if(ev.key==='Enter'&&searchResults[selectedSearch]){ev.preventDefault();location.href=href(searchResults[selectedSearch].id);searchDialog.close();}};searchDialog.onclick=ev=>{if(ev.target.closest('a'))searchDialog.close();};update();}
 export async function initializeJourneys({preview:staticPreview=false}={}){
  preview=staticPreview;
+ if(!eventsEnabled){if(page==='tickets.html'){document.title='PLAKATWERK · Plakataktion';return;}if($('#orderApp'))renderOrderFlow();return;}
  if($('#homeEvents')||page==='tickets.html'){events=preview?demoEvents:(await api('events')).events;}
  const actions=$('.header-actions');if(actions&&!$('#openDiscovery'))actions.insertAdjacentHTML('afterbegin','<button class="icon-btn discovery-trigger" id="openDiscovery" aria-label="Suche öffnen">⌕</button>');$('#openDiscovery')?.addEventListener('click',async()=>{if(!events.length&&!preview)try{events=(await api('events')).events;}catch{}if(preview)events=demoEvents;search();});
  document.addEventListener('keydown',ev=>{if((ev.ctrlKey||ev.metaKey)&&ev.key.toLowerCase()==='k'){ev.preventDefault();$('#openDiscovery')?.click();}});

@@ -1,0 +1,6 @@
+/* The optional module stays in the project and can be enabled through site-config.js. */
+html:not([data-events="on"]) [data-events-only]{display:none!important}
+html[data-events="on"] [data-events-off-only]{display:none!important}
+html:not([data-events="on"]) .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+html:not([data-events="on"]) .service-card:last-of-type{border-right:0}
+@media(max-width:800px){html:not([data-events="on"]) .service-grid{grid-template-columns:1fr}}
