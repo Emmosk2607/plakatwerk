@@ -16,6 +16,10 @@
 .orte-group h3{display:flex;justify-content:space-between;align-items:baseline;margin:14px 18px 6px;font-size:15px;text-transform:uppercase;letter-spacing:.02em}
 .orte-group h3 small{font:600 10px 'Courier New',monospace;color:var(--muted)}
 .orte-item{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:10px;width:100%;padding:10px 18px;background:none;border:0;border-top:1px solid var(--line);color:var(--text);text-align:left;font:inherit;cursor:pointer}
+.orte-list-title{display:flex;justify-content:space-between;gap:10px}
+.orte-list-title .muted{color:var(--muted)}
+.orte-item span small{display:block;font:600 10px 'Courier New',monospace;letter-spacing:1px;color:var(--muted);margin-top:2px}
+.orte-popup em{font-style:normal;font-weight:700;color:var(--lime);margin-top:4px}
 .orte-item b{font:700 11px 'Courier New',monospace;color:var(--lime)}
 .orte-item i{font-style:normal;color:var(--muted);transition:transform .2s,color .2s}
 .orte-item:hover,.orte-item:focus-visible{background:var(--surface2);outline:none}

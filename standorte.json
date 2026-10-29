@@ -2,916 +2,1439 @@
  "stand": "2026-10-29",
  "standorte": [
   {
-   "id": "3d7b84865c",
-   "nr": 1,
+   "id": "682c9defcc",
+   "name": "Am Berg Fidel",
+   "stadtteil": "Berg Fidel",
    "lat": 51.92709,
    "lng": 7.624,
-   "strasse": "Am Berg Fidel",
-   "stadtteil": "Berg Fidel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.92709,
+     7.624
+    ]
+   ],
+   "nr": 1
   },
   {
-   "id": "6ecf7bfb70",
-   "nr": 2,
+   "id": "d6a23ab519",
+   "name": "Hammer Straße",
+   "stadtteil": "Berg Fidel",
    "lat": 51.92671,
    "lng": 7.62919,
-   "strasse": "Hammer Straße",
-   "stadtteil": "Berg Fidel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.92671,
+     7.62919
+    ]
+   ],
+   "nr": 2
   },
   {
-   "id": "a9bcd78d06",
-   "nr": 3,
+   "id": "cae8c443ce",
+   "name": "Hammer Straße 2",
+   "stadtteil": "Berg Fidel",
    "lat": 51.92773,
    "lng": 7.62964,
-   "strasse": "Hammer Straße",
-   "stadtteil": "Berg Fidel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.92773,
+     7.62964
+    ]
+   ],
+   "nr": 3
   },
   {
-   "id": "ea876af57f",
-   "nr": 4,
+   "id": "a06cc56708",
+   "name": "Hogenbergstraße",
+   "stadtteil": "Berg Fidel",
    "lat": 51.92718,
    "lng": 7.62004,
-   "strasse": "Hogenbergstraße",
-   "stadtteil": "Berg Fidel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.92718,
+     7.62004
+    ]
+   ],
+   "nr": 4
   },
   {
-   "id": "43a815d367",
-   "nr": 5,
+   "id": "17a5a93b3a",
+   "name": "Lechterstraße",
+   "stadtteil": "Berg Fidel",
    "lat": 51.92559,
    "lng": 7.61727,
-   "strasse": "Lechterstraße",
-   "stadtteil": "Berg Fidel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.92559,
+     7.61727
+    ]
+   ],
+   "nr": 5
   },
   {
-   "id": "3b4bf6505f",
-   "nr": 6,
+   "id": "d8117e810f",
+   "name": "Schuckertstraße",
+   "stadtteil": "Berg Fidel",
    "lat": 51.92658,
    "lng": 7.63401,
-   "strasse": "Schuckertstraße",
-   "stadtteil": "Berg Fidel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.92658,
+     7.63401
+    ]
+   ],
+   "nr": 6
   },
   {
-   "id": "669110f840",
-   "nr": 7,
+   "id": "9c5c22c87e",
+   "name": "Ter-Borch-Straße",
+   "stadtteil": "Berg Fidel",
    "lat": 51.92547,
    "lng": 7.6206,
-   "strasse": "Ter-Borch-Straße",
-   "stadtteil": "Berg Fidel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.92547,
+     7.6206
+    ]
+   ],
+   "nr": 7
   },
   {
-   "id": "4814fb03dc",
-   "nr": 8,
+   "id": "a8bf9bc3ee",
+   "name": "Appelbreistiege",
+   "stadtteil": "Gievenbeck",
    "lat": 51.96736,
    "lng": 7.58056,
-   "strasse": "Appelbreistiege",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96736,
+     7.58056
+    ]
+   ],
+   "nr": 8
   },
   {
-   "id": "db6bc12447",
-   "nr": 9,
+   "id": "eff8fed59b",
+   "name": "Borghorstweg",
+   "stadtteil": "Gievenbeck",
    "lat": 51.96883,
    "lng": 7.57244,
-   "strasse": "Borghorstweg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96883,
+     7.57244
+    ]
+   ],
+   "nr": 9
   },
   {
-   "id": "557652180d",
-   "nr": 10,
+   "id": "27c3ccb035",
+   "name": "Borkenfeld",
+   "stadtteil": "Gievenbeck",
    "lat": 51.96563,
    "lng": 7.56533,
-   "strasse": "Borkenfeld",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96563,
+     7.56533
+    ]
+   ],
+   "nr": 10
   },
   {
-   "id": "0b5b2255f5",
-   "nr": 11,
+   "id": "c28fd94e85",
+   "name": "Dieckmannstraße",
+   "stadtteil": "Gievenbeck",
    "lat": 51.95796,
    "lng": 7.57212,
-   "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95796,
+     7.57212
+    ]
+   ],
+   "nr": 11
   },
   {
-   "id": "69f20cf82c",
-   "nr": 12,
+   "id": "9cbfb41cfb",
+   "name": "Dieckmannstraße 2",
+   "stadtteil": "Gievenbeck",
    "lat": 51.95997,
    "lng": 7.56922,
-   "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95997,
+     7.56922
+    ]
+   ],
+   "nr": 12
   },
   {
-   "id": "dbf0240286",
-   "nr": 13,
+   "id": "38551a1eb9",
+   "name": "Dieckmannstraße 3",
+   "stadtteil": "Gievenbeck",
    "lat": 51.96147,
    "lng": 7.56733,
-   "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96147,
+     7.56733
+    ]
+   ],
+   "nr": 13
   },
   {
-   "id": "fcc37d4691",
-   "nr": 14,
+   "id": "a12972946e",
+   "name": "Dieckmannstraße 4",
+   "stadtteil": "Gievenbeck",
    "lat": 51.96724,
    "lng": 7.56351,
-   "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96724,
+     7.56351
+    ]
+   ],
+   "nr": 14
   },
   {
-   "id": "a0a9fd82c0",
-   "nr": 15,
-   "lat": 51.96822,
-   "lng": 7.56224,
-   "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "d5583ebdcf",
-   "nr": 16,
+   "id": "aabb7e0cb8",
+   "name": "Dieckmannstraße 5",
+   "stadtteil": "Gievenbeck",
    "lat": 51.9692,
    "lng": 7.56233,
-   "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.9692,
+     7.56233
+    ]
+   ],
+   "nr": 15
   },
   {
-   "id": "40b7fc8211",
-   "nr": 17,
+   "id": "affe66537b",
+   "name": "Dieckmannstraße 6",
+   "stadtteil": "Gievenbeck",
    "lat": 51.9698,
    "lng": 7.56287,
-   "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.9698,
+     7.56287
+    ]
+   ],
+   "nr": 16
   },
   {
-   "id": "49d62f783a",
-   "nr": 18,
+   "id": "25d85e1cd4",
+   "name": "Dieckmannstraße 7",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97078,
    "lng": 7.56292,
-   "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97078,
+     7.56292
+    ]
+   ],
+   "nr": 17
   },
   {
-   "id": "5917527af6",
-   "nr": 19,
+   "id": "80f11f5137",
+   "name": "Enschedeweg",
+   "stadtteil": "Gievenbeck",
    "lat": 51.96929,
    "lng": 7.57791,
-   "strasse": "Enschedeweg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96929,
+     7.57791
+    ]
+   ],
+   "nr": 18
   },
   {
-   "id": "ac83f8f4c7",
-   "nr": 20,
-   "lat": 51.97218,
-   "lng": 7.5758,
-   "strasse": "Enschedeweg",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "76a3527720",
-   "nr": 21,
+   "id": "ddcfa53b76",
+   "name": "Gescherweg",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97314,
    "lng": 7.57581,
-   "strasse": "Gescherweg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97314,
+     7.57581
+    ]
+   ],
+   "nr": 19
   },
   {
-   "id": "75b1708857",
-   "nr": 22,
-   "lat": 51.97431,
-   "lng": 7.57546,
-   "strasse": "Gescherweg",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "80863f917b",
-   "nr": 23,
+   "id": "ecf02447ba",
+   "name": "Gescherweg 2",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97555,
    "lng": 7.57437,
-   "strasse": "Gescherweg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97555,
+     7.57437
+    ]
+   ],
+   "nr": 20
   },
   {
-   "id": "a3ef1d90ff",
-   "nr": 24,
+   "id": "10ba0fe8cf",
+   "name": "Gescherweg 3",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.97431,
+   "lng": 7.57546,
+   "plakate": null,
+   "punkte": [
+    [
+     51.97431,
+     7.57546
+    ]
+   ],
+   "nr": 21
+  },
+  {
+   "id": "28eca8464f",
+   "name": "Gievenbecker Reihe",
+   "stadtteil": "Gievenbeck",
    "lat": 51.96231,
    "lng": 7.57609,
-   "strasse": "Gievenbecker Reihe",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96231,
+     7.57609
+    ]
+   ],
+   "nr": 22
   },
   {
-   "id": "e762c71753",
-   "nr": 25,
-   "lat": 51.96533,
-   "lng": 7.56833,
-   "strasse": "Gievenbecker Reihe",
-   "stadtteil": "Gievenbeck"
+   "id": "b63a615094",
+   "name": "Gievenbecker Reihe 2",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.96536,
+   "lng": 7.56821,
+   "plakate": null,
+   "punkte": [
+    [
+     51.96533,
+     7.56833
+    ],
+    [
+     51.96538,
+     7.56808
+    ]
+   ],
+   "nr": 23
   },
   {
-   "id": "c4af353a77",
-   "nr": 26,
-   "lat": 51.96538,
-   "lng": 7.56808,
-   "strasse": "Gievenbecker Reihe",
-   "stadtteil": "Gievenbeck"
+   "id": "77934f96d7",
+   "name": "Gievenbecker Weg",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.97217,
+   "lng": 7.57613,
+   "plakate": null,
+   "punkte": [
+    [
+     51.97218,
+     7.5758
+    ],
+    [
+     51.97193,
+     7.5764
+    ],
+    [
+     51.97241,
+     7.5762
+    ]
+   ],
+   "nr": 24
   },
   {
-   "id": "5431022937",
-   "nr": 27,
-   "lat": 51.97193,
-   "lng": 7.5764,
-   "strasse": "Gievenbecker Weg",
-   "stadtteil": "Gievenbeck"
+   "id": "6297eb8f4b",
+   "name": "Heekweg",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.97286,
+   "lng": 7.56414,
+   "plakate": null,
+   "punkte": [
+    [
+     51.97274,
+     7.56418
+    ],
+    [
+     51.97297,
+     7.5641
+    ]
+   ],
+   "nr": 25
   },
   {
-   "id": "1616e84103",
-   "nr": 28,
-   "lat": 51.97241,
-   "lng": 7.5762,
-   "strasse": "Gievenbecker Weg",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "0a226ff6c0",
-   "nr": 29,
-   "lat": 51.97274,
-   "lng": 7.56418,
-   "strasse": "Heekweg",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "4599907645",
-   "nr": 30,
-   "lat": 51.97297,
-   "lng": 7.5641,
-   "strasse": "Heekweg",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "ec0d97ba3a",
-   "nr": 31,
-   "lat": 51.97258,
-   "lng": 7.57542,
-   "strasse": "Hensenstraße",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "6aee4d41fd",
-   "nr": 32,
-   "lat": 51.97313,
-   "lng": 7.57337,
-   "strasse": "Hensenstraße",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "13af7680a0",
-   "nr": 33,
+   "id": "e1ca63fb0d",
+   "name": "Hensenstraße",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97361,
    "lng": 7.56906,
-   "strasse": "Hensenstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97361,
+     7.56906
+    ]
+   ],
+   "nr": 26
   },
   {
-   "id": "d11c344270",
-   "nr": 34,
+   "id": "7bf2ec4d19",
+   "name": "Hensenstraße 2",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97363,
    "lng": 7.57272,
-   "strasse": "Hensenstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97363,
+     7.57272
+    ]
+   ],
+   "nr": 27
   },
   {
-   "id": "4ff985ca01",
-   "nr": 35,
+   "id": "52567f1938",
+   "name": "Hensenstraße 3",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.97313,
+   "lng": 7.57337,
+   "plakate": null,
+   "punkte": [
+    [
+     51.97313,
+     7.57337
+    ]
+   ],
+   "nr": 28
+  },
+  {
+   "id": "321f07a35f",
+   "name": "Hensenstraße 4",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.97258,
+   "lng": 7.57542,
+   "plakate": null,
+   "punkte": [
+    [
+     51.97258,
+     7.57542
+    ]
+   ],
+   "nr": 29
+  },
+  {
+   "id": "30d6cf9627",
+   "name": "Hensenstraße 5",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97409,
    "lng": 7.57026,
-   "strasse": "Hensenstraße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97409,
+     7.57026
+    ]
+   ],
+   "nr": 30
   },
   {
-   "id": "1cfcc86840",
-   "nr": 36,
+   "id": "16494d10e4",
+   "name": "Ramertsweg 2",
+   "stadtteil": "Gievenbeck",
    "lat": 51.96504,
    "lng": 7.55855,
-   "strasse": "Ramertsweg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96504,
+     7.55855
+    ]
+   ],
+   "nr": 31
   },
   {
-   "id": "626876823d",
-   "nr": 37,
+   "id": "cf987846b9",
+   "name": "Rudolf-Harbig-Weg",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97523,
    "lng": 7.59193,
-   "strasse": "Rudolf-Harbig-Weg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97523,
+     7.59193
+    ]
+   ],
+   "nr": 32
   },
   {
-   "id": "d270e1e7af",
-   "nr": 38,
-   "lat": 51.97278,
-   "lng": 7.56609,
-   "strasse": "Rüschhausweg",
-   "stadtteil": "Gievenbeck"
-  },
-  {
-   "id": "6ed7853683",
-   "nr": 39,
+   "id": "dc935b134b",
+   "name": "Rüschhausweg",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97336,
    "lng": 7.56556,
-   "strasse": "Rüschhausweg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97336,
+     7.56556
+    ]
+   ],
+   "nr": 33
   },
   {
-   "id": "25fdff75b1",
-   "nr": 40,
+   "id": "d40e8349b0",
+   "name": "Rüschhausweg 2",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.97278,
+   "lng": 7.56609,
+   "plakate": null,
+   "punkte": [
+    [
+     51.97278,
+     7.56609
+    ]
+   ],
+   "nr": 34
+  },
+  {
+   "id": "5838350989",
+   "name": "Toppheideweg",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97411,
    "lng": 7.57108,
-   "strasse": "Toppheideweg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97411,
+     7.57108
+    ]
+   ],
+   "nr": 35
   },
   {
-   "id": "070995751e",
-   "nr": 41,
+   "id": "e831424aa7",
+   "name": "Twenteweg",
+   "stadtteil": "Gievenbeck",
    "lat": 51.97299,
    "lng": 7.5726,
-   "strasse": "Twenteweg",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97299,
+     7.5726
+    ]
+   ],
+   "nr": 36
   },
   {
-   "id": "e7b9a34d51",
-   "nr": 42,
-   "lat": 51.96752,
+   "id": "0ecd9bd734",
+   "name": "Von-Esmarch-Straße",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.96751,
    "lng": 7.57958,
-   "strasse": "Von-Esmarch-Straße",
-   "stadtteil": "Gievenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96751,
+     7.57958
+    ]
+   ],
+   "nr": 37
   },
   {
-   "id": "240b7ec046",
-   "nr": 43,
-   "lat": 51.96807,
-   "lng": 7.56205,
-   "strasse": "Wickenkamp",
-   "stadtteil": "Gievenbeck"
+   "id": "84b03b324b",
+   "name": "Wickenkamp",
+   "stadtteil": "Gievenbeck",
+   "lat": 51.96814,
+   "lng": 7.56214,
+   "plakate": null,
+   "punkte": [
+    [
+     51.96822,
+     7.56224
+    ],
+    [
+     51.96807,
+     7.56205
+    ]
+   ],
+   "nr": 38
   },
   {
-   "id": "be10f9b7b5",
-   "nr": 44,
-   "lat": 51.94456,
-   "lng": 7.64592,
-   "strasse": "Albersloher Weg",
-   "stadtteil": "Gremmendorf"
-  },
-  {
-   "id": "2b2c857930",
-   "nr": 45,
-   "lat": 51.94459,
-   "lng": 7.64625,
-   "strasse": "Albersloher Weg",
-   "stadtteil": "Gremmendorf"
-  },
-  {
-   "id": "7105d1e35f",
-   "nr": 46,
+   "id": "0c63c5e0c5",
+   "name": "Albersloher Weg",
+   "stadtteil": "Gremmendorf",
    "lat": 51.94483,
    "lng": 7.64557,
-   "strasse": "Albersloher Weg",
-   "stadtteil": "Gremmendorf"
+   "plakate": null,
+   "punkte": [
+    [
+     51.94483,
+     7.64557
+    ]
+   ],
+   "nr": 39
   },
   {
-   "id": "b18bc3479f",
-   "nr": 47,
-   "lat": 51.9447,
-   "lng": 7.64645,
-   "strasse": "Theodor-Scheiwe-Straße",
-   "stadtteil": "Gremmendorf"
+   "id": "0b9ac33fb9",
+   "name": "Albersloher Weg 2",
+   "stadtteil": "Gremmendorf",
+   "lat": 51.94462,
+   "lng": 7.64621,
+   "plakate": null,
+   "punkte": [
+    [
+     51.94456,
+     7.64593
+    ],
+    [
+     51.94459,
+     7.64625
+    ],
+    [
+     51.9447,
+     7.64645
+    ]
+   ],
+   "nr": 40
   },
   {
-   "id": "b05f160d7a",
-   "nr": 48,
+   "id": "f4bcf9d6e0",
+   "name": "Theodor-Scheiwe-Straße",
+   "stadtteil": "Gremmendorf",
    "lat": 51.9455,
    "lng": 7.6472,
-   "strasse": "Theodor-Scheiwe-Straße",
-   "stadtteil": "Gremmendorf"
+   "plakate": null,
+   "punkte": [
+    [
+     51.9455,
+     7.6472
+    ]
+   ],
+   "nr": 41
   },
   {
-   "id": "131ca700c4",
-   "nr": 49,
+   "id": "6be98c109e",
+   "name": "Bahnhofstraße",
+   "stadtteil": "Innenstadtring",
    "lat": 51.95951,
    "lng": 7.63476,
-   "strasse": "Bahnhofstraße",
-   "stadtteil": "Innenstadtring"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95951,
+     7.63476
+    ]
+   ],
+   "nr": 42
   },
   {
-   "id": "7a8c406d1c",
-   "nr": 50,
-   "lat": 51.95333,
-   "lng": 7.64149,
-   "strasse": "Dortmunder Straße",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "ba537a9e57",
-   "nr": 51,
-   "lat": 51.95348,
-   "lng": 7.6431,
-   "strasse": "Emdener Straße",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "cca7057bcd",
-   "nr": 52,
+   "id": "c5038984ba",
+   "name": "Friedrichstraße",
+   "stadtteil": "Innenstadtring",
    "lat": 51.95982,
    "lng": 7.63563,
-   "strasse": "Friedrichstraße",
-   "stadtteil": "Innenstadtring"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95982,
+     7.63563
+    ]
+   ],
+   "nr": 43
   },
   {
-   "id": "2de611b27a",
-   "nr": 53,
-   "lat": 51.95318,
-   "lng": 7.64126,
-   "strasse": "Hansaring",
-   "stadtteil": "Innenstadtring"
+   "id": "53d48785ce",
+   "name": "Hansaring 3",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.95323,
+   "lng": 7.64141,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95333,
+     7.64149
+    ],
+    [
+     51.95318,
+     7.64126
+    ],
+    [
+     51.95318,
+     7.64149
+    ]
+   ],
+   "nr": 44
   },
   {
-   "id": "d11af8bb16",
-   "nr": 54,
-   "lat": 51.95318,
-   "lng": 7.64149,
-   "strasse": "Hansaring",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "3c045eff23",
-   "nr": 55,
+   "id": "a7ef81ef8f",
+   "name": "Hansaring 4",
+   "stadtteil": "Innenstadtring",
    "lat": 51.95332,
    "lng": 7.64265,
-   "strasse": "Hansaring",
-   "stadtteil": "Innenstadtring"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95332,
+     7.64265
+    ]
+   ],
+   "nr": 45
   },
   {
-   "id": "3f185f4bc7",
-   "nr": 56,
+   "id": "cd4cf6276e",
+   "name": "Hansaring 5",
+   "stadtteil": "Innenstadtring",
    "lat": 51.95348,
-   "lng": 7.64347,
-   "strasse": "Hansaring",
-   "stadtteil": "Innenstadtring"
+   "lng": 7.64329,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95348,
+     7.6431
+    ],
+    [
+     51.95348,
+     7.64347
+    ]
+   ],
+   "nr": 46
   },
   {
-   "id": "36081f3c05",
-   "nr": 57,
-   "lat": 51.95444,
-   "lng": 7.64478,
-   "strasse": "Hansaring",
-   "stadtteil": "Innenstadtring"
+   "id": "fde36c4d8b",
+   "name": "Hansaring 6",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.95447,
+   "lng": 7.64491,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95444,
+     7.64478
+    ],
+    [
+     51.95469,
+     7.645
+    ],
+    [
+     51.95429,
+     7.64497
+    ]
+   ],
+   "nr": 47
   },
   {
-   "id": "652abdafac",
-   "nr": 58,
+   "id": "b1a629e10e",
+   "name": "Hohenzollernring 2",
+   "stadtteil": "Innenstadtring",
    "lat": 51.95987,
    "lng": 7.64738,
-   "strasse": "Hohenzollernring",
-   "stadtteil": "Innenstadtring"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95987,
+     7.64738
+    ]
+   ],
+   "nr": 48
   },
   {
-   "id": "c915c396e5",
-   "nr": 59,
+   "id": "f0e871a932",
+   "name": "Lingener Straße",
+   "stadtteil": "Innenstadtring",
    "lat": 51.95316,
    "lng": 7.63933,
-   "strasse": "Lingener Straße",
-   "stadtteil": "Innenstadtring"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95316,
+     7.63933
+    ]
+   ],
+   "nr": 49
   },
   {
-   "id": "7428b2ab3b",
-   "nr": 60,
-   "lat": 51.97201,
-   "lng": 7.63816,
-   "strasse": "Niedersachsenring",
-   "stadtteil": "Innenstadtring"
+   "id": "84d0e6b1b1",
+   "name": "Niedersachsenring",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.97194,
+   "lng": 7.63828,
+   "plakate": null,
+   "punkte": [
+    [
+     51.97201,
+     7.63816
+    ],
+    [
+     51.97188,
+     7.6384
+    ]
+   ],
+   "nr": 50
   },
   {
-   "id": "e5dbeae1a5",
-   "nr": 61,
-   "lat": 51.95314,
-   "lng": 7.63815,
-   "strasse": "Soester Straße",
-   "stadtteil": "Innenstadtring"
+   "id": "16c4e4ca19",
+   "name": "Soester Straße",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.95299,
+   "lng": 7.63834,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95314,
+     7.63815
+    ],
+    [
+     51.95303,
+     7.63862
+    ],
+    [
+     51.95281,
+     7.63824
+    ]
+   ],
+   "nr": 51
   },
   {
-   "id": "b0d62b4ad6",
-   "nr": 62,
+   "id": "2282cccd42",
+   "name": "Sternstraße",
+   "stadtteil": "Innenstadtring",
    "lat": 51.9591,
    "lng": 7.64727,
-   "strasse": "Sternstraße",
-   "stadtteil": "Innenstadtring"
+   "plakate": null,
+   "punkte": [
+    [
+     51.9591,
+     7.64727
+    ]
+   ],
+   "nr": 52
   },
   {
-   "id": "b4e0f4d7be",
-   "nr": 63,
-   "lat": 51.95563,
-   "lng": 7.64542,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "90a8577e7b",
-   "nr": 64,
-   "lat": 51.95605,
-   "lng": 7.64383,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "d008ddf789",
-   "nr": 65,
-   "lat": 51.95647,
-   "lng": 7.64256,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "6722f3478b",
-   "nr": 66,
-   "lat": 51.95662,
-   "lng": 7.64239,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "af52b93e41",
-   "nr": 67,
-   "lat": 51.95716,
-   "lng": 7.64112,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "d6f45444b5",
-   "nr": 68,
-   "lat": 51.95756,
-   "lng": 7.64023,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring"
-  },
-  {
-   "id": "e595ac3931",
-   "nr": 69,
+   "id": "019716106a",
+   "name": "Wolbecker Straße 2",
+   "stadtteil": "Innenstadtring",
    "lat": 51.95842,
    "lng": 7.63811,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95842,
+     7.63811
+    ]
+   ],
+   "nr": 53
   },
   {
-   "id": "965b6dd648",
-   "nr": 70,
+   "id": "527ef76c1f",
+   "name": "Wolbecker Straße 3",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.95756,
+   "lng": 7.64023,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95756,
+     7.64023
+    ]
+   ],
+   "nr": 54
+  },
+  {
+   "id": "96fc09e63b",
+   "name": "Wolbecker Straße 4",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.95716,
+   "lng": 7.64112,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95716,
+     7.64112
+    ]
+   ],
+   "nr": 55
+  },
+  {
+   "id": "e89522cf15",
+   "name": "Wolbecker Straße 5",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.95655,
+   "lng": 7.64248,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95647,
+     7.64256
+    ],
+    [
+     51.95662,
+     7.64239
+    ]
+   ],
+   "nr": 56
+  },
+  {
+   "id": "6d010cac5a",
+   "name": "Wolbecker Straße 6",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.95605,
+   "lng": 7.64383,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95605,
+     7.64383
+    ]
+   ],
+   "nr": 57
+  },
+  {
+   "id": "62510b8fad",
+   "name": "Wolbecker Straße 7",
+   "stadtteil": "Innenstadtring",
+   "lat": 51.95549,
+   "lng": 7.64566,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95563,
+     7.64542
+    ],
+    [
+     51.95534,
+     7.64591
+    ]
+   ],
+   "nr": 58
+  },
+  {
+   "id": "01b2ffe269",
+   "name": "Andreas-Hofer-Straße",
+   "stadtteil": "Mauritzviertel",
    "lat": 51.95682,
    "lng": 7.65277,
-   "strasse": "Andreas-Hofer-Straße",
-   "stadtteil": "Mauritzviertel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95682,
+     7.65277
+    ]
+   ],
+   "nr": 59
   },
   {
-   "id": "9bcf0505a9",
-   "nr": 71,
+   "id": "51150eb7c3",
+   "name": "Hohenzollernring",
+   "stadtteil": "Mauritzviertel",
    "lat": 51.95839,
    "lng": 7.64741,
-   "strasse": "Hohenzollernring",
-   "stadtteil": "Mauritzviertel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95839,
+     7.64741
+    ]
+   ],
+   "nr": 60
   },
   {
-   "id": "bce3dc46cf",
-   "nr": 72,
+   "id": "e875e80d73",
+   "name": "Manfred-von-Richthofen-Straße",
+   "stadtteil": "Mauritzviertel",
    "lat": 51.95864,
    "lng": 7.65277,
-   "strasse": "Manfred-von-Richthofen-Straße",
-   "stadtteil": "Mauritzviertel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95864,
+     7.65277
+    ]
+   ],
+   "nr": 61
   },
   {
-   "id": "f8f8c4f207",
-   "nr": 73,
+   "id": "ff3735763b",
+   "name": "Sankt Franziskus-Hospital Liegendanfahrt",
+   "stadtteil": "Mauritzviertel",
    "lat": 51.96183,
    "lng": 7.64783,
-   "strasse": "Sankt Franziskus-Hospital Liegendanfahrt",
-   "stadtteil": "Mauritzviertel"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96183,
+     7.64783
+    ]
+   ],
+   "nr": 62
   },
   {
-   "id": "229c4930c5",
-   "nr": 74,
+   "id": "3898fb6af4",
+   "name": "Brockmannstraße",
+   "stadtteil": "Mecklenbeck",
    "lat": 51.93054,
    "lng": 7.57915,
-   "strasse": "Brockmannstraße",
-   "stadtteil": "Mecklenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.93054,
+     7.57915
+    ]
+   ],
+   "nr": 63
   },
   {
-   "id": "1ccd8fc437",
-   "nr": 75,
+   "id": "5049c0cd8f",
+   "name": "Mecklenbecker Straße",
+   "stadtteil": "Mecklenbeck",
    "lat": 51.93124,
    "lng": 7.57046,
-   "strasse": "Mecklenbecker Straße",
-   "stadtteil": "Mecklenbeck"
+   "plakate": null,
+   "punkte": [
+    [
+     51.93124,
+     7.57046
+    ]
+   ],
+   "nr": 64
   },
   {
-   "id": "edc0775deb",
-   "nr": 76,
-   "lat": 51.948,
-   "lng": 7.63914,
-   "strasse": "Albersloher Weg",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "ba0fe22c95",
-   "nr": 77,
+   "id": "762ab2530b",
+   "name": "Albersloher Weg 3",
+   "stadtteil": "Mitte-Nordost",
    "lat": 51.94956,
    "lng": 7.63898,
-   "strasse": "Albersloher Weg",
-   "stadtteil": "Mitte-Nordost"
+   "plakate": null,
+   "punkte": [
+    [
+     51.94956,
+     7.63898
+    ]
+   ],
+   "nr": 65
   },
   {
-   "id": "153d60553d",
-   "nr": 78,
-   "lat": 51.95233,
-   "lng": 7.63623,
-   "strasse": "Albersloher Weg",
-   "stadtteil": "Mitte-Nordost"
+   "id": "bb3197efbf",
+   "name": "Albersloher Weg 4",
+   "stadtteil": "Mitte-Nordost",
+   "lat": 51.94808,
+   "lng": 7.63931,
+   "plakate": null,
+   "punkte": [
+    [
+     51.948,
+     7.63914
+    ],
+    [
+     51.94816,
+     7.63949
+    ]
+   ],
+   "nr": 66
   },
   {
-   "id": "b90a7f1f5e",
-   "nr": 79,
-   "lat": 51.9527,
-   "lng": 7.6363,
-   "strasse": "Albersloher Weg",
-   "stadtteil": "Mitte-Nordost"
+   "id": "5cc2a75156",
+   "name": "Albersloher Weg 5",
+   "stadtteil": "Mitte-Nordost",
+   "lat": 51.95251,
+   "lng": 7.63626,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95233,
+     7.63623
+    ],
+    [
+     51.9527,
+     7.6363
+    ]
+   ],
+   "nr": 67
   },
   {
-   "id": "b690717e4e",
-   "nr": 80,
-   "lat": 51.9447,
-   "lng": 7.63852,
-   "strasse": "Am Hawerkamp",
-   "stadtteil": "Mitte-Nordost"
+   "id": "2da8f29eed",
+   "name": "Am Hawerkamp",
+   "stadtteil": "Mitte-Nordost",
+   "lat": 51.94472,
+   "lng": 7.63877,
+   "plakate": null,
+   "punkte": [
+    [
+     51.9447,
+     7.63852
+    ],
+    [
+     51.94474,
+     7.63902
+    ]
+   ],
+   "nr": 68
   },
   {
-   "id": "eb79980a8b",
-   "nr": 81,
-   "lat": 51.94475,
-   "lng": 7.63902,
-   "strasse": "Am Hawerkamp",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "06497712e4",
-   "nr": 82,
+   "id": "a1bc7c7412",
+   "name": "Am Hawerkamp 2",
+   "stadtteil": "Mitte-Nordost",
    "lat": 51.946,
    "lng": 7.63883,
-   "strasse": "Am Hawerkamp",
-   "stadtteil": "Mitte-Nordost"
+   "plakate": null,
+   "punkte": [
+    [
+     51.946,
+     7.63883
+    ]
+   ],
+   "nr": 69
   },
   {
-   "id": "be6469e1a8",
-   "nr": 83,
-   "lat": 51.94816,
-   "lng": 7.63949,
-   "strasse": "Am Hawerkamp",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "16eb8f38c4",
-   "nr": 84,
+   "id": "35791de03d",
+   "name": "Bernhard-Ernst-Straße",
+   "stadtteil": "Mitte-Nordost",
    "lat": 51.95237,
    "lng": 7.63703,
-   "strasse": "Bernhard-Ernst-Straße",
-   "stadtteil": "Mitte-Nordost"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95237,
+     7.63703
+    ]
+   ],
+   "nr": 70
   },
   {
-   "id": "03258337cc",
-   "nr": 85,
-   "lat": 51.95288,
-   "lng": 7.63716,
-   "strasse": "Hansaring",
-   "stadtteil": "Mitte-Nordost"
+   "id": "429e2b1bb1",
+   "name": "Hansaring",
+   "stadtteil": "Mitte-Nordost",
+   "lat": 51.95289,
+   "lng": 7.63699,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95288,
+     7.63716
+    ],
+    [
+     51.9529,
+     7.63683
+    ]
+   ],
+   "nr": 71
   },
   {
-   "id": "6960ae8931",
-   "nr": 86,
-   "lat": 51.9529,
-   "lng": 7.63683,
-   "strasse": "Hansaring",
-   "stadtteil": "Mitte-Nordost"
+   "id": "19729c47fd",
+   "name": "Hansaring 2",
+   "stadtteil": "Mitte-Nordost",
+   "lat": 51.95315,
+   "lng": 7.63996,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95313,
+     7.63984
+    ],
+    [
+     51.95317,
+     7.64009
+    ]
+   ],
+   "nr": 72
   },
   {
-   "id": "71f12242aa",
-   "nr": 87,
-   "lat": 51.95304,
-   "lng": 7.63862,
-   "strasse": "Hansaring",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "8742f91393",
-   "nr": 88,
-   "lat": 51.95313,
-   "lng": 7.63984,
-   "strasse": "Hansaring",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "8a85f85aa6",
-   "nr": 89,
-   "lat": 51.95317,
-   "lng": 7.64009,
-   "strasse": "Hansaring",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "cd73492d6c",
-   "nr": 90,
-   "lat": 51.95469,
-   "lng": 7.645,
-   "strasse": "Hansaring",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "d0dd342476",
-   "nr": 91,
+   "id": "0545e03953",
+   "name": "Industrieweg",
+   "stadtteil": "Mitte-Nordost",
    "lat": 51.94366,
    "lng": 7.63544,
-   "strasse": "Industrieweg",
-   "stadtteil": "Mitte-Nordost"
+   "plakate": null,
+   "punkte": [
+    [
+     51.94366,
+     7.63544
+    ]
+   ],
+   "nr": 73
   },
   {
-   "id": "fd0081a515",
-   "nr": 92,
+   "id": "6aeaf38dfb",
+   "name": "Kaiser-Wilhelm-Ring",
+   "stadtteil": "Mitte-Nordost",
    "lat": 51.96411,
    "lng": 7.64672,
-   "strasse": "Kaiser-Wilhelm-Ring",
-   "stadtteil": "Mitte-Nordost"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96411,
+     7.64672
+    ]
+   ],
+   "nr": 74
   },
   {
-   "id": "49ed099499",
-   "nr": 93,
-   "lat": 51.96792,
-   "lng": 7.65314,
-   "strasse": "Ostmarkstraße",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "2ce99b45d8",
-   "nr": 94,
+   "id": "08092cce83",
+   "name": "Ostmarkstraße",
+   "stadtteil": "Mitte-Nordost",
    "lat": 51.96793,
-   "lng": 7.65278,
-   "strasse": "Ostmarkstraße",
-   "stadtteil": "Mitte-Nordost"
+   "lng": 7.65296,
+   "plakate": null,
+   "punkte": [
+    [
+     51.96792,
+     7.65314
+    ],
+    [
+     51.96793,
+     7.65278
+    ]
+   ],
+   "nr": 75
   },
   {
-   "id": "306f3132fb",
-   "nr": 95,
+   "id": "68ca064ca1",
+   "name": "Ostmarkstraße 2",
+   "stadtteil": "Mitte-Nordost",
    "lat": 51.96831,
    "lng": 7.65161,
-   "strasse": "Ostmarkstraße",
-   "stadtteil": "Mitte-Nordost"
+   "plakate": null,
+   "punkte": [
+    [
+     51.96831,
+     7.65161
+    ]
+   ],
+   "nr": 76
   },
   {
-   "id": "069336d648",
-   "nr": 96,
-   "lat": 51.95429,
-   "lng": 7.64497,
-   "strasse": "Schillerstraße",
-   "stadtteil": "Mitte-Nordost"
+   "id": "d6b6962b22",
+   "name": "Warendorfer Straße",
+   "stadtteil": "Mitte-Nordost",
+   "lat": 51.96785,
+   "lng": 7.65751,
+   "plakate": null,
+   "punkte": [
+    [
+     51.96783,
+     7.6576
+    ],
+    [
+     51.96788,
+     7.65741
+    ]
+   ],
+   "nr": 77
   },
   {
-   "id": "38ea2cb32d",
-   "nr": 97,
-   "lat": 51.95281,
-   "lng": 7.63824,
-   "strasse": "Soester Straße",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "ffec7c7a99",
-   "nr": 98,
-   "lat": 51.96782,
-   "lng": 7.65772,
-   "strasse": "Warendorfer Straße",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "ced3edd8e1",
-   "nr": 99,
-   "lat": 51.96786,
-   "lng": 7.65748,
-   "strasse": "Warendorfer Straße",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "cc0db648d5",
-   "nr": 100,
-   "lat": 51.95503,
-   "lng": 7.64864,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "c8210d773e",
-   "nr": 101,
+   "id": "dd061f0512",
+   "name": "Wolbecker Straße",
+   "stadtteil": "Mitte-Nordost",
    "lat": 51.95521,
    "lng": 7.64724,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Mitte-Nordost"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95521,
+     7.64724
+    ]
+   ],
+   "nr": 78
   },
   {
-   "id": "cefc1e8c29",
-   "nr": 102,
-   "lat": 51.95534,
-   "lng": 7.64591,
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Mitte-Nordost"
+   "id": "dab2ca3e79",
+   "name": "Wolbecker Straße 8",
+   "stadtteil": "Mitte-Nordost",
+   "lat": 51.95503,
+   "lng": 7.64864,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95503,
+     7.64864
+    ]
+   ],
+   "nr": 79
   },
   {
-   "id": "9abcb0248e",
-   "nr": 103,
+   "id": "82972daaa7",
+   "name": "Geringhoffstraße",
+   "stadtteil": "Mitte-Süd",
    "lat": 51.92909,
    "lng": 7.59836,
-   "strasse": "Geringhoffstraße",
-   "stadtteil": "Mitte-Süd"
+   "plakate": null,
+   "punkte": [
+    [
+     51.92909,
+     7.59836
+    ]
+   ],
+   "nr": 80
   },
   {
-   "id": "5e664c92e7",
-   "nr": 104,
-   "lat": 51.97188,
-   "lng": 7.6384,
-   "strasse": "Niedersachsenring",
-   "stadtteil": "Rumphorst"
-  },
-  {
-   "id": "51ae2616b9",
-   "nr": 105,
+   "id": "3049969c85",
+   "name": "Mendelstraße",
+   "stadtteil": "Sentruper Höhe",
    "lat": 51.97041,
    "lng": 7.58857,
-   "strasse": "Mendelstraße",
-   "stadtteil": "Sentruper Höhe"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97041,
+     7.58857
+    ]
+   ],
+   "nr": 81
   },
   {
-   "id": "a75cff82f7",
-   "nr": 106,
+   "id": "9f2a0287f0",
+   "name": "Ramertsweg",
+   "stadtteil": "Sentruper Höhe",
    "lat": 51.95584,
    "lng": 7.56753,
-   "strasse": "Ramertsweg",
-   "stadtteil": "Sentruper Höhe"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95584,
+     7.56753
+    ]
+   ],
+   "nr": 82
   },
   {
-   "id": "0269f95105",
-   "nr": 107,
+   "id": "4befce3cee",
+   "name": "Roxeler Straße",
+   "stadtteil": "Sentruper Höhe",
    "lat": 51.95589,
    "lng": 7.56827,
-   "strasse": "Roxeler Straße",
-   "stadtteil": "Sentruper Höhe"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95589,
+     7.56827
+    ]
+   ],
+   "nr": 83
   },
   {
-   "id": "0d1c549708",
-   "nr": 108,
+   "id": "82f4615bbb",
+   "name": "Roxeler Straße 2",
+   "stadtteil": "Sentruper Höhe",
    "lat": 51.95706,
    "lng": 7.56988,
-   "strasse": "Roxeler Straße",
-   "stadtteil": "Sentruper Höhe"
+   "plakate": null,
+   "punkte": [
+    [
+     51.95706,
+     7.56988
+    ]
+   ],
+   "nr": 84
   },
   {
-   "id": "0bca72b17e",
-   "nr": 109,
-   "lat": 51.95753,
-   "lng": 7.57158,
-   "strasse": "Roxeler Straße",
-   "stadtteil": "Sentruper Höhe"
+   "id": "1cfb68858e",
+   "name": "Roxeler Straße 3",
+   "stadtteil": "Sentruper Höhe",
+   "lat": 51.9576,
+   "lng": 7.57165,
+   "plakate": null,
+   "punkte": [
+    [
+     51.95753,
+     7.57158
+    ],
+    [
+     51.95766,
+     7.57172
+    ]
+   ],
+   "nr": 85
   },
   {
-   "id": "b833b310be",
-   "nr": 110,
-   "lat": 51.95766,
-   "lng": 7.57172,
-   "strasse": "Roxeler Straße",
-   "stadtteil": "Sentruper Höhe"
-  },
-  {
-   "id": "56d263c536",
-   "nr": 111,
-   "lat": 51.97763,
-   "lng": 7.59996,
-   "strasse": "Steinfurter Straße",
-   "stadtteil": "Sentruper Höhe"
-  },
-  {
-   "id": "7dc42a72e6",
-   "nr": 112,
+   "id": "bac631323f",
+   "name": "Steinfurter Straße",
+   "stadtteil": "Sentruper Höhe",
    "lat": 51.97838,
    "lng": 7.59779,
-   "strasse": "Steinfurter Straße",
-   "stadtteil": "Sentruper Höhe"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97838,
+     7.59779
+    ]
+   ],
+   "nr": 86
   },
   {
-   "id": "2e08acd488",
-   "nr": 113,
+   "id": "dacf2f175e",
+   "name": "Steinfurter Straße 2",
+   "stadtteil": "Sentruper Höhe",
+   "lat": 51.97763,
+   "lng": 7.59996,
+   "plakate": null,
+   "punkte": [
+    [
+     51.97763,
+     7.59996
+    ]
+   ],
+   "nr": 87
+  },
+  {
+   "id": "16d8019a6e",
+   "name": "Jahnstraße",
+   "stadtteil": "Uppenberg",
    "lat": 51.97595,
    "lng": 7.61628,
-   "strasse": "Jahnstraße",
-   "stadtteil": "Uppenberg"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97595,
+     7.61628
+    ]
+   ],
+   "nr": 88
   },
   {
-   "id": "cb612531c4",
-   "nr": 114,
-   "lat": 51.97497,
+   "id": "50b3b2e2c5",
+   "name": "Wienburgstraße",
+   "stadtteil": "Uppenberg",
+   "lat": 51.97496,
    "lng": 7.62349,
-   "strasse": "Wienburgstraße",
-   "stadtteil": "Uppenberg"
+   "plakate": null,
+   "punkte": [
+    [
+     51.97496,
+     7.62349
+    ]
+   ],
+   "nr": 89
   }
  ]
 }
