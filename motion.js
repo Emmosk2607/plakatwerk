@@ -16,7 +16,7 @@ function enter(el){
 const observer='IntersectionObserver' in window?new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){observer.unobserve(entry.target);enter(entry.target);}}},{threshold:.1,rootMargin:'0px 0px -20px 0px'}):null;
 function scan(root=document){const candidates=[...(root.matches?.(selector)?[root]:[]),...root.querySelectorAll(selector)];for(const el of candidates){if(seen.has(el)||!eligible(el))continue;seen.add(el);if(observer&&!reduced.matches)observer.observe(el);}}
 function addRibbon(){
- const place=document.querySelector('.home-hero,.page-heading');
+ const place=document.querySelector('.nova-hero,.home-hero,.page-heading');
  const page=location.pathname.split('/').pop()||'index.html';
  if(!place||!['index.html','leistungen.html'].includes(page)||document.querySelector('.motion-ribbon'))return;
  const ribbon=document.createElement('section');ribbon.className='motion-ribbon';ribbon.setAttribute('aria-label','Druck. Plakatierung. Tickets. Münster.');
