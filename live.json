@@ -1,6 +1,6 @@
 {
-  "running": true,
-  "url": "https://vitamin-night-computation-pst.trycloudflare.com",
-  "startedAt": "2026-10-29T16:41:47.831Z",
+  "running": false,
+  "url": "",
+  "stoppedAt": "2026-10-29T16:43:22.489Z",
   "version": "2.5.0"
 }
