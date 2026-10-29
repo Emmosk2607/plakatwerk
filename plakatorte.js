@@ -6,7 +6,8 @@ const muenster=[51.9607,7.6261];
 const map=L.map('orteMap',{scrollWheelZoom:false,zoomControl:false}).setView(muenster,12);
 L.control.zoom({position:'bottomright'}).addTo(map);
 // OpenStreetMap-Kacheln, per CSS (.orte-map .leaflet-tile-pane) ins dunkle Design umgefärbt.
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+// OSM verlangt einen Referer; der Server setzt sonst Referrer-Policy same-origin (403 "Access blocked").
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,referrerPolicy:'strict-origin-when-cross-origin',attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
 map.on('focus',()=>map.scrollWheelZoom.enable());map.on('blur',()=>map.scrollWheelZoom.disable());
 
 const icon=n=>L.divIcon({className:'orte-pin',html:`<span>${n}</span>`,iconSize:[30,30],iconAnchor:[15,15],popupAnchor:[0,-14]});
