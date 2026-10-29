@@ -94,4 +94,3 @@ function renderOrderFlow(){
  try{v.quantity=Number(v.quantity);if(v.service==='druck')v.areas='';if(!draft)draft=(await api('customer/orders','POST',v,csrf,{'Idempotency-Key':key})).order;if(file&&!uploadDone){$('#journeyProgress').hidden=false;await uploadFile('customer/orders/'+draft.id+'/print',file,csrf,n=>$('#journeyProgress').value=n);uploadDone=true;}await api('customer/orders/'+draft.id+'/submit','POST',{},csrf);storage.set('pw-order-choice',{});location.href='konto.html#order-'+draft.id;}catch(err){error.textContent=err.message+(draft?' Dein Entwurf liegt bereits im Kundenkonto.':'');submitting=false;ev.target.disabled=false;$('#orderBack').disabled=false;f.querySelectorAll('input,select,textarea').forEach(el=>el.disabled=false);if(draft){$('#orderBack').disabled=true;f.querySelectorAll('input:not([type=file]),select,textarea').forEach(el=>el.disabled=true);}}};
  f.onsubmit=ev=>{ev.preventDefault();$('#orderNext').click();};show();
 }
-

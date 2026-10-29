@@ -1,0 +1,18 @@
+/* PLAKATWERK motion: short entrances, readable text and opt-out for continuous motion. */
+main h1 em{display:inline-block}
+.motion-ribbon{display:flex;align-items:center;gap:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;margin:0 0 30px;max-width:100%;min-width:0}
+.ribbon-window{overflow:hidden;flex:1;min-width:0;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.ribbon-track{display:flex;width:max-content;animation:pw-ribbon 34s linear infinite;will-change:transform}
+.ribbon-group{display:flex;align-items:center;flex-shrink:0;gap:32px;padding-right:32px;font-size:clamp(21px,3vw,38px);font-weight:800;letter-spacing:-1px;line-height:1.25;white-space:nowrap;color:var(--text)}
+.ribbon-group i{font-style:normal;color:var(--lime);font-size:.8em}.ribbon-group span:nth-of-type(2){color:var(--lime)}
+.ribbon-toggle{display:grid;place-items:center;width:36px;height:36px;flex-shrink:0;background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:3px;font-size:13px;cursor:pointer}
+.ribbon-toggle:hover{color:var(--lime);border-color:var(--lime)}
+.motion-ribbon.paused .ribbon-track,.motion-ribbon:hover .ribbon-track,.motion-ribbon:focus-within .ribbon-track{animation-play-state:paused}
+@keyframes pw-ribbon{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+ .service-card{transition:background .25s,border-color .25s}.service-card .feature-icon{transition:translate .3s,rotate .3s}.service-card:hover .feature-icon{translate:3px -3px;rotate:-5deg}
+ .primary,.soft,.icon-btn,.card-link b{transition:background .2s,border-color .2s,color .2s,translate .2s}.primary:hover{translate:0 -2px;transform:none}.primary:active,.soft:active{translate:0 0}.card-link b{transition:translate .25s,border-color .25s}.service-card:hover .card-link b{translate:3px -3px;border-color:var(--lime)}
+ .site-header nav a{transition:color .2s}.site-header nav a:before{content:'';position:absolute;left:0;bottom:0;height:1px;width:100%;background:var(--lime);scale:0 1;transform-origin:left;transition:scale .25s}.site-header nav a:hover:before{scale:1 1}
+}
+@media(max-width:800px){.motion-ribbon{padding:15px 0;gap:12px;margin-bottom:22px}.ribbon-group{gap:24px;padding-right:24px}.ribbon-toggle{width:32px;height:32px}}
+@media(prefers-reduced-motion:reduce){.ribbon-track{animation:none;will-change:auto;transform:none}.ribbon-group:nth-child(2){display:none}.ribbon-toggle{display:none}*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
