@@ -2,96 +2,496 @@
  "stand": "2026-10-29",
  "standorte": [
   {
-   "id": "d5583ebdcf",
+   "id": "3d7b84865c",
    "nr": 1,
-   "lat": 51.96919,
-   "lng": 7.56234,
+   "lat": 51.92709,
+   "lng": 7.624,
+   "strasse": "Am Berg Fidel",
+   "stadtteil": "Berg Fidel"
+  },
+  {
+   "id": "6ecf7bfb70",
+   "nr": 2,
+   "lat": 51.92671,
+   "lng": 7.62919,
+   "strasse": "Hammer Straße",
+   "stadtteil": "Berg Fidel"
+  },
+  {
+   "id": "a9bcd78d06",
+   "nr": 3,
+   "lat": 51.92773,
+   "lng": 7.62964,
+   "strasse": "Hammer Straße",
+   "stadtteil": "Berg Fidel"
+  },
+  {
+   "id": "ea876af57f",
+   "nr": 4,
+   "lat": 51.92718,
+   "lng": 7.62004,
+   "strasse": "Hogenbergstraße",
+   "stadtteil": "Berg Fidel"
+  },
+  {
+   "id": "43a815d367",
+   "nr": 5,
+   "lat": 51.92559,
+   "lng": 7.61727,
+   "strasse": "Lechterstraße",
+   "stadtteil": "Berg Fidel"
+  },
+  {
+   "id": "3b4bf6505f",
+   "nr": 6,
+   "lat": 51.92658,
+   "lng": 7.63401,
+   "strasse": "Schuckertstraße",
+   "stadtteil": "Berg Fidel"
+  },
+  {
+   "id": "669110f840",
+   "nr": 7,
+   "lat": 51.92547,
+   "lng": 7.6206,
+   "strasse": "Ter-Borch-Straße",
+   "stadtteil": "Berg Fidel"
+  },
+  {
+   "id": "4814fb03dc",
+   "nr": 8,
+   "lat": 51.96736,
+   "lng": 7.58056,
+   "strasse": "Appelbreistiege",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "db6bc12447",
+   "nr": 9,
+   "lat": 51.96883,
+   "lng": 7.57244,
+   "strasse": "Borghorstweg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "557652180d",
+   "nr": 10,
+   "lat": 51.96563,
+   "lng": 7.56533,
+   "strasse": "Borkenfeld",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "0b5b2255f5",
+   "nr": 11,
+   "lat": 51.95796,
+   "lng": 7.57212,
    "strasse": "Dieckmannstraße",
    "stadtteil": "Gievenbeck"
   },
   {
-   "id": "2c7096190f",
-   "nr": 2,
-   "lat": 51.96913,
-   "lng": 7.5779,
+   "id": "69f20cf82c",
+   "nr": 12,
+   "lat": 51.95997,
+   "lng": 7.56922,
+   "strasse": "Dieckmannstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "dbf0240286",
+   "nr": 13,
+   "lat": 51.96147,
+   "lng": 7.56733,
+   "strasse": "Dieckmannstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "fcc37d4691",
+   "nr": 14,
+   "lat": 51.96724,
+   "lng": 7.56351,
+   "strasse": "Dieckmannstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "a0a9fd82c0",
+   "nr": 15,
+   "lat": 51.96822,
+   "lng": 7.56224,
+   "strasse": "Dieckmannstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "d5583ebdcf",
+   "nr": 16,
+   "lat": 51.9692,
+   "lng": 7.56233,
+   "strasse": "Dieckmannstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "40b7fc8211",
+   "nr": 17,
+   "lat": 51.9698,
+   "lng": 7.56287,
+   "strasse": "Dieckmannstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "49d62f783a",
+   "nr": 18,
+   "lat": 51.97078,
+   "lng": 7.56292,
+   "strasse": "Dieckmannstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "5917527af6",
+   "nr": 19,
+   "lat": 51.96929,
+   "lng": 7.57791,
    "strasse": "Enschedeweg",
    "stadtteil": "Gievenbeck"
   },
   {
-   "id": "f397b65e35",
-   "nr": 3,
-   "lat": 51.9755,
-   "lng": 7.57436,
+   "id": "ac83f8f4c7",
+   "nr": 20,
+   "lat": 51.97218,
+   "lng": 7.5758,
+   "strasse": "Enschedeweg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "76a3527720",
+   "nr": 21,
+   "lat": 51.97314,
+   "lng": 7.57581,
+   "strasse": "Gescherweg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "75b1708857",
+   "nr": 22,
+   "lat": 51.97431,
+   "lng": 7.57546,
+   "strasse": "Gescherweg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "80863f917b",
+   "nr": 23,
+   "lat": 51.97555,
+   "lng": 7.57437,
    "strasse": "Gescherweg",
    "stadtteil": "Gievenbeck"
   },
   {
    "id": "a3ef1d90ff",
-   "nr": 4,
+   "nr": 24,
    "lat": 51.96231,
-   "lng": 7.57607,
+   "lng": 7.57609,
    "strasse": "Gievenbecker Reihe",
    "stadtteil": "Gievenbeck"
   },
   {
+   "id": "e762c71753",
+   "nr": 25,
+   "lat": 51.96533,
+   "lng": 7.56833,
+   "strasse": "Gievenbecker Reihe",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "c4af353a77",
+   "nr": 26,
+   "lat": 51.96538,
+   "lng": 7.56808,
+   "strasse": "Gievenbecker Reihe",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "5431022937",
+   "nr": 27,
+   "lat": 51.97193,
+   "lng": 7.5764,
+   "strasse": "Gievenbecker Weg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "1616e84103",
+   "nr": 28,
+   "lat": 51.97241,
+   "lng": 7.5762,
+   "strasse": "Gievenbecker Weg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
    "id": "0a226ff6c0",
-   "nr": 5,
+   "nr": 29,
    "lat": 51.97274,
-   "lng": 7.56419,
+   "lng": 7.56418,
    "strasse": "Heekweg",
    "stadtteil": "Gievenbeck"
   },
   {
-   "id": "6ed7853683",
-   "nr": 6,
-   "lat": 51.97337,
-   "lng": 7.56557,
+   "id": "4599907645",
+   "nr": 30,
+   "lat": 51.97297,
+   "lng": 7.5641,
+   "strasse": "Heekweg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "ec0d97ba3a",
+   "nr": 31,
+   "lat": 51.97258,
+   "lng": 7.57542,
+   "strasse": "Hensenstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "6aee4d41fd",
+   "nr": 32,
+   "lat": 51.97313,
+   "lng": 7.57337,
+   "strasse": "Hensenstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "13af7680a0",
+   "nr": 33,
+   "lat": 51.97361,
+   "lng": 7.56906,
+   "strasse": "Hensenstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "d11c344270",
+   "nr": 34,
+   "lat": 51.97363,
+   "lng": 7.57272,
+   "strasse": "Hensenstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "4ff985ca01",
+   "nr": 35,
+   "lat": 51.97409,
+   "lng": 7.57026,
+   "strasse": "Hensenstraße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "1cfcc86840",
+   "nr": 36,
+   "lat": 51.96504,
+   "lng": 7.55855,
+   "strasse": "Ramertsweg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "626876823d",
+   "nr": 37,
+   "lat": 51.97523,
+   "lng": 7.59193,
+   "strasse": "Rudolf-Harbig-Weg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "d270e1e7af",
+   "nr": 38,
+   "lat": 51.97278,
+   "lng": 7.56609,
    "strasse": "Rüschhausweg",
    "stadtteil": "Gievenbeck"
   },
   {
+   "id": "6ed7853683",
+   "nr": 39,
+   "lat": 51.97336,
+   "lng": 7.56556,
+   "strasse": "Rüschhausweg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
+   "id": "25fdff75b1",
+   "nr": 40,
+   "lat": 51.97411,
+   "lng": 7.57108,
+   "strasse": "Toppheideweg",
+   "stadtteil": "Gievenbeck"
+  },
+  {
    "id": "070995751e",
-   "nr": 7,
+   "nr": 41,
    "lat": 51.97299,
-   "lng": 7.57257,
+   "lng": 7.5726,
    "strasse": "Twenteweg",
    "stadtteil": "Gievenbeck"
   },
   {
+   "id": "e7b9a34d51",
+   "nr": 42,
+   "lat": 51.96752,
+   "lng": 7.57958,
+   "strasse": "Von-Esmarch-Straße",
+   "stadtteil": "Gievenbeck"
+  },
+  {
    "id": "240b7ec046",
-   "nr": 8,
+   "nr": 43,
    "lat": 51.96807,
-   "lng": 7.56204,
+   "lng": 7.56205,
    "strasse": "Wickenkamp",
    "stadtteil": "Gievenbeck"
   },
   {
-   "id": "4aefe08f63",
-   "nr": 9,
-   "lat": 51.94483,
-   "lng": 7.64555,
+   "id": "be10f9b7b5",
+   "nr": 44,
+   "lat": 51.94456,
+   "lng": 7.64592,
    "strasse": "Albersloher Weg",
    "stadtteil": "Gremmendorf"
   },
   {
-   "id": "02f1b7245a",
-   "nr": 10,
-   "lat": 51.95939,
-   "lng": 7.6348,
+   "id": "2b2c857930",
+   "nr": 45,
+   "lat": 51.94459,
+   "lng": 7.64625,
+   "strasse": "Albersloher Weg",
+   "stadtteil": "Gremmendorf"
+  },
+  {
+   "id": "7105d1e35f",
+   "nr": 46,
+   "lat": 51.94483,
+   "lng": 7.64557,
+   "strasse": "Albersloher Weg",
+   "stadtteil": "Gremmendorf"
+  },
+  {
+   "id": "b18bc3479f",
+   "nr": 47,
+   "lat": 51.9447,
+   "lng": 7.64645,
+   "strasse": "Theodor-Scheiwe-Straße",
+   "stadtteil": "Gremmendorf"
+  },
+  {
+   "id": "b05f160d7a",
+   "nr": 48,
+   "lat": 51.9455,
+   "lng": 7.6472,
+   "strasse": "Theodor-Scheiwe-Straße",
+   "stadtteil": "Gremmendorf"
+  },
+  {
+   "id": "131ca700c4",
+   "nr": 49,
+   "lat": 51.95951,
+   "lng": 7.63476,
    "strasse": "Bahnhofstraße",
    "stadtteil": "Innenstadtring"
   },
   {
+   "id": "7a8c406d1c",
+   "nr": 50,
+   "lat": 51.95333,
+   "lng": 7.64149,
+   "strasse": "Dortmunder Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "ba537a9e57",
+   "nr": 51,
+   "lat": 51.95348,
+   "lng": 7.6431,
+   "strasse": "Emdener Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "cca7057bcd",
+   "nr": 52,
+   "lat": 51.95982,
+   "lng": 7.63563,
+   "strasse": "Friedrichstraße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "2de611b27a",
+   "nr": 53,
+   "lat": 51.95318,
+   "lng": 7.64126,
+   "strasse": "Hansaring",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "d11af8bb16",
+   "nr": 54,
+   "lat": 51.95318,
+   "lng": 7.64149,
+   "strasse": "Hansaring",
+   "stadtteil": "Innenstadtring"
+  },
+  {
    "id": "3c045eff23",
-   "nr": 11,
+   "nr": 55,
    "lat": 51.95332,
    "lng": 7.64265,
    "strasse": "Hansaring",
    "stadtteil": "Innenstadtring"
   },
   {
+   "id": "3f185f4bc7",
+   "nr": 56,
+   "lat": 51.95348,
+   "lng": 7.64347,
+   "strasse": "Hansaring",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "36081f3c05",
+   "nr": 57,
+   "lat": 51.95444,
+   "lng": 7.64478,
+   "strasse": "Hansaring",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "652abdafac",
+   "nr": 58,
+   "lat": 51.95987,
+   "lng": 7.64738,
+   "strasse": "Hohenzollernring",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "c915c396e5",
+   "nr": 59,
+   "lat": 51.95316,
+   "lng": 7.63933,
+   "strasse": "Lingener Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "7428b2ab3b",
+   "nr": 60,
+   "lat": 51.97201,
+   "lng": 7.63816,
+   "strasse": "Niedersachsenring",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "e5dbeae1a5",
+   "nr": 61,
+   "lat": 51.95314,
+   "lng": 7.63815,
+   "strasse": "Soester Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
    "id": "b0d62b4ad6",
-   "nr": 12,
+   "nr": 62,
    "lat": 51.9591,
    "lng": 7.64727,
    "strasse": "Sternstraße",
@@ -99,83 +499,419 @@
   },
   {
    "id": "b4e0f4d7be",
-   "nr": 13,
+   "nr": 63,
    "lat": 51.95563,
    "lng": 7.64542,
    "strasse": "Wolbecker Straße",
    "stadtteil": "Innenstadtring"
   },
   {
-   "id": "b470bb3684",
-   "nr": 14,
-   "lat": 51.95606,
-   "lng": 7.64382,
+   "id": "90a8577e7b",
+   "nr": 64,
+   "lat": 51.95605,
+   "lng": 7.64383,
+   "strasse": "Wolbecker Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "d008ddf789",
+   "nr": 65,
+   "lat": 51.95647,
+   "lng": 7.64256,
    "strasse": "Wolbecker Straße",
    "stadtteil": "Innenstadtring"
   },
   {
    "id": "6722f3478b",
-   "nr": 15,
+   "nr": 66,
    "lat": 51.95662,
    "lng": 7.64239,
    "strasse": "Wolbecker Straße",
    "stadtteil": "Innenstadtring"
   },
   {
+   "id": "af52b93e41",
+   "nr": 67,
+   "lat": 51.95716,
+   "lng": 7.64112,
+   "strasse": "Wolbecker Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "d6f45444b5",
+   "nr": 68,
+   "lat": 51.95756,
+   "lng": 7.64023,
+   "strasse": "Wolbecker Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "e595ac3931",
+   "nr": 69,
+   "lat": 51.95842,
+   "lng": 7.63811,
+   "strasse": "Wolbecker Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
    "id": "965b6dd648",
-   "nr": 16,
-   "lat": 51.95681,
-   "lng": 7.65278,
+   "nr": 70,
+   "lat": 51.95682,
+   "lng": 7.65277,
    "strasse": "Andreas-Hofer-Straße",
    "stadtteil": "Mauritzviertel"
   },
   {
    "id": "9bcf0505a9",
-   "nr": 17,
-   "lat": 51.95842,
+   "nr": 71,
+   "lat": 51.95839,
    "lng": 7.64741,
    "strasse": "Hohenzollernring",
    "stadtteil": "Mauritzviertel"
   },
   {
-   "id": "c1caa69e35",
-   "nr": 18,
-   "lat": 51.95277,
-   "lng": 7.6372,
+   "id": "bce3dc46cf",
+   "nr": 72,
+   "lat": 51.95864,
+   "lng": 7.65277,
+   "strasse": "Manfred-von-Richthofen-Straße",
+   "stadtteil": "Mauritzviertel"
+  },
+  {
+   "id": "f8f8c4f207",
+   "nr": 73,
+   "lat": 51.96183,
+   "lng": 7.64783,
+   "strasse": "Sankt Franziskus-Hospital Liegendanfahrt",
+   "stadtteil": "Mauritzviertel"
+  },
+  {
+   "id": "229c4930c5",
+   "nr": 74,
+   "lat": 51.93054,
+   "lng": 7.57915,
+   "strasse": "Brockmannstraße",
+   "stadtteil": "Mecklenbeck"
+  },
+  {
+   "id": "1ccd8fc437",
+   "nr": 75,
+   "lat": 51.93124,
+   "lng": 7.57046,
+   "strasse": "Mecklenbecker Straße",
+   "stadtteil": "Mecklenbeck"
+  },
+  {
+   "id": "edc0775deb",
+   "nr": 76,
+   "lat": 51.948,
+   "lng": 7.63914,
+   "strasse": "Albersloher Weg",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "ba0fe22c95",
+   "nr": 77,
+   "lat": 51.94956,
+   "lng": 7.63898,
+   "strasse": "Albersloher Weg",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "b90a7f1f5e",
+   "nr": 78,
+   "lat": 51.9527,
+   "lng": 7.6363,
+   "strasse": "Albersloher Weg",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "b690717e4e",
+   "nr": 79,
+   "lat": 51.9447,
+   "lng": 7.63852,
+   "strasse": "Am Hawerkamp",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "eb79980a8b",
+   "nr": 80,
+   "lat": 51.94475,
+   "lng": 7.63902,
+   "strasse": "Am Hawerkamp",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "06497712e4",
+   "nr": 81,
+   "lat": 51.946,
+   "lng": 7.63883,
+   "strasse": "Am Hawerkamp",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "be6469e1a8",
+   "nr": 82,
+   "lat": 51.94816,
+   "lng": 7.63949,
+   "strasse": "Am Hawerkamp",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "153d60553d",
+   "nr": 83,
+   "lat": 51.95233,
+   "lng": 7.63623,
+   "strasse": "ɑlbersloer veːk",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "16eb8f38c4",
+   "nr": 84,
+   "lat": 51.95237,
+   "lng": 7.63703,
+   "strasse": "Bernhard-Ernst-Straße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "03258337cc",
+   "nr": 85,
+   "lat": 51.95288,
+   "lng": 7.63716,
    "strasse": "Hansaring",
    "stadtteil": "Mitte-Nordost"
   },
   {
-   "id": "befe363895",
-   "nr": 19,
-   "lat": 51.95316,
-   "lng": 7.64003,
+   "id": "6960ae8931",
+   "nr": 86,
+   "lat": 51.9529,
+   "lng": 7.63683,
    "strasse": "Hansaring",
    "stadtteil": "Mitte-Nordost"
   },
   {
-   "id": "3e4723a4c5",
-   "nr": 20,
-   "lat": 51.96409,
-   "lng": 7.64689,
+   "id": "71f12242aa",
+   "nr": 87,
+   "lat": 51.95304,
+   "lng": 7.63862,
+   "strasse": "Hansaring",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "8742f91393",
+   "nr": 88,
+   "lat": 51.95313,
+   "lng": 7.63984,
+   "strasse": "Hansaring",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "8a85f85aa6",
+   "nr": 89,
+   "lat": 51.95317,
+   "lng": 7.64009,
+   "strasse": "Hansaring",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "cd73492d6c",
+   "nr": 90,
+   "lat": 51.95469,
+   "lng": 7.645,
+   "strasse": "Hansaring",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "d0dd342476",
+   "nr": 91,
+   "lat": 51.94366,
+   "lng": 7.63544,
+   "strasse": "Industrieweg",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "fd0081a515",
+   "nr": 92,
+   "lat": 51.96411,
+   "lng": 7.64672,
    "strasse": "Kaiser-Wilhelm-Ring",
    "stadtteil": "Mitte-Nordost"
   },
   {
-   "id": "ced3edd8e1",
-   "nr": 21,
-   "lat": 51.96791,
-   "lng": 7.65746,
+   "id": "49ed099499",
+   "nr": 93,
+   "lat": 51.96792,
+   "lng": 7.65314,
+   "strasse": "Ostmarkstraße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "2ce99b45d8",
+   "nr": 94,
+   "lat": 51.96793,
+   "lng": 7.65278,
+   "strasse": "Ostmarkstraße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "306f3132fb",
+   "nr": 95,
+   "lat": 51.96831,
+   "lng": 7.65161,
+   "strasse": "Ostmarkstraße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "069336d648",
+   "nr": 96,
+   "lat": 51.95429,
+   "lng": 7.64497,
+   "strasse": "Schillerstraße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "38ea2cb32d",
+   "nr": 97,
+   "lat": 51.95281,
+   "lng": 7.63824,
+   "strasse": "Soester Straße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "ffec7c7a99",
+   "nr": 98,
+   "lat": 51.96782,
+   "lng": 7.65772,
    "strasse": "Warendorfer Straße",
    "stadtteil": "Mitte-Nordost"
   },
   {
+   "id": "ced3edd8e1",
+   "nr": 99,
+   "lat": 51.96786,
+   "lng": 7.65748,
+   "strasse": "Warendorfer Straße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "cc0db648d5",
+   "nr": 100,
+   "lat": 51.95503,
+   "lng": 7.64864,
+   "strasse": "Wolbecker Straße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "c8210d773e",
+   "nr": 101,
+   "lat": 51.95521,
+   "lng": 7.64724,
+   "strasse": "Wolbecker Straße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "cefc1e8c29",
+   "nr": 102,
+   "lat": 51.95534,
+   "lng": 7.64591,
+   "strasse": "Wolbecker Straße",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "9abcb0248e",
+   "nr": 103,
+   "lat": 51.92909,
+   "lng": 7.59836,
+   "strasse": "Geringhoffstraße",
+   "stadtteil": "Mitte-Süd"
+  },
+  {
+   "id": "5e664c92e7",
+   "nr": 104,
+   "lat": 51.97188,
+   "lng": 7.6384,
+   "strasse": "Niedersachsenring",
+   "stadtteil": "Rumphorst"
+  },
+  {
+   "id": "51ae2616b9",
+   "nr": 105,
+   "lat": 51.97041,
+   "lng": 7.58857,
+   "strasse": "Mendelstraße",
+   "stadtteil": "Sentruper Höhe"
+  },
+  {
    "id": "a75cff82f7",
-   "nr": 22,
+   "nr": 106,
    "lat": 51.95584,
    "lng": 7.56753,
    "strasse": "Ramertsweg",
    "stadtteil": "Sentruper Höhe"
+  },
+  {
+   "id": "0269f95105",
+   "nr": 107,
+   "lat": 51.95589,
+   "lng": 7.56827,
+   "strasse": "Roxeler Straße",
+   "stadtteil": "Sentruper Höhe"
+  },
+  {
+   "id": "0d1c549708",
+   "nr": 108,
+   "lat": 51.95706,
+   "lng": 7.56988,
+   "strasse": "Roxeler Straße",
+   "stadtteil": "Sentruper Höhe"
+  },
+  {
+   "id": "0bca72b17e",
+   "nr": 109,
+   "lat": 51.95753,
+   "lng": 7.57158,
+   "strasse": "Roxeler Straße",
+   "stadtteil": "Sentruper Höhe"
+  },
+  {
+   "id": "b833b310be",
+   "nr": 110,
+   "lat": 51.95766,
+   "lng": 7.57172,
+   "strasse": "Roxeler Straße",
+   "stadtteil": "Sentruper Höhe"
+  },
+  {
+   "id": "56d263c536",
+   "nr": 111,
+   "lat": 51.97763,
+   "lng": 7.59996,
+   "strasse": "Steinfurter Straße",
+   "stadtteil": "Sentruper Höhe"
+  },
+  {
+   "id": "7dc42a72e6",
+   "nr": 112,
+   "lat": 51.97838,
+   "lng": 7.59779,
+   "strasse": "Steinfurter Straße",
+   "stadtteil": "Sentruper Höhe"
+  },
+  {
+   "id": "2e08acd488",
+   "nr": 113,
+   "lat": 51.97595,
+   "lng": 7.61628,
+   "strasse": "Jahnstraße",
+   "stadtteil": "Uppenberg"
+  },
+  {
+   "id": "cb612531c4",
+   "nr": 114,
+   "lat": 51.97497,
+   "lng": 7.62349,
+   "strasse": "Wienburgstraße",
+   "stadtteil": "Uppenberg"
   }
  ]
 }
