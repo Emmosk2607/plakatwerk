@@ -1,6 +1,6 @@
 {
-  "running": false,
-  "url": "",
-  "stoppedAt": "2026-10-29T16:43:22.489Z",
+  "running": true,
+  "url": "https://gloves-geographic-tract-forbes.trycloudflare.com",
+  "startedAt": "2026-10-29T16:44:38.508Z",
   "version": "2.5.0"
 }
