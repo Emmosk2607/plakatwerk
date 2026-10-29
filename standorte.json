@@ -618,8 +618,16 @@
    "stadtteil": "Mitte-Nordost"
   },
   {
-   "id": "b90a7f1f5e",
+   "id": "153d60553d",
    "nr": 78,
+   "lat": 51.95233,
+   "lng": 7.63623,
+   "strasse": "Albersloher Weg",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "b90a7f1f5e",
+   "nr": 79,
    "lat": 51.9527,
    "lng": 7.6363,
    "strasse": "Albersloher Weg",
@@ -627,7 +635,7 @@
   },
   {
    "id": "b690717e4e",
-   "nr": 79,
+   "nr": 80,
    "lat": 51.9447,
    "lng": 7.63852,
    "strasse": "Am Hawerkamp",
@@ -635,7 +643,7 @@
   },
   {
    "id": "eb79980a8b",
-   "nr": 80,
+   "nr": 81,
    "lat": 51.94475,
    "lng": 7.63902,
    "strasse": "Am Hawerkamp",
@@ -643,7 +651,7 @@
   },
   {
    "id": "06497712e4",
-   "nr": 81,
+   "nr": 82,
    "lat": 51.946,
    "lng": 7.63883,
    "strasse": "Am Hawerkamp",
@@ -651,18 +659,10 @@
   },
   {
    "id": "be6469e1a8",
-   "nr": 82,
+   "nr": 83,
    "lat": 51.94816,
    "lng": 7.63949,
    "strasse": "Am Hawerkamp",
-   "stadtteil": "Mitte-Nordost"
-  },
-  {
-   "id": "153d60553d",
-   "nr": 83,
-   "lat": 51.95233,
-   "lng": 7.63623,
-   "strasse": "ɑlbersloer veːk",
    "stadtteil": "Mitte-Nordost"
   },
   {
