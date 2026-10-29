@@ -14,6 +14,25 @@ const icon=n=>L.divIcon({className:'orte-pin',html:`<span>${n}</span>`,iconSize:
 const label=p=>[p.strasse,p.stadtteil].filter(Boolean).join(' · ')||'Münster';
 
 let orte=[];const markers=new Map();
+const layer=L.layerGroup().addTo(map),detailZoom=16,cell=56;
+
+// Nahe Punkte je Zoomstufe zu Zahlenblasen bündeln (Raster in Bildschirmpixeln); ab detailZoom alle einzeln.
+function renderMap(){
+  layer.clearLayers();
+  const zoom=map.getZoom();
+  if(zoom>=detailZoom){markers.forEach(m=>layer.addLayer(m));return;}
+  const cells=new Map();
+  for(const p of orte){const pt=map.project([p.lat,p.lng],zoom),key=Math.floor(pt.x/cell)+':'+Math.floor(pt.y/cell);if(!cells.has(key))cells.set(key,[]);cells.get(key).push(p);}
+  for(const group of cells.values()){
+    if(group.length===1){layer.addLayer(markers.get(group[0].id));continue;}
+    const lat=group.reduce((t,p)=>t+p.lat,0)/group.length,lng=group.reduce((t,p)=>t+p.lng,0)/group.length;
+    const size=group.length<10?38:group.length<100?46:54;
+    const bubble=L.marker([lat,lng],{icon:L.divIcon({className:'orte-cluster',html:`<span>${group.length}</span>`,iconSize:[size,size],iconAnchor:[size/2,size/2]}),title:`${group.length} Plakatorte`,keyboard:true});
+    bubble.on('click',()=>map.fitBounds(group.map(p=>[p.lat,p.lng]),{padding:[50,50],maxZoom:detailZoom+1}));
+    layer.addLayer(bubble);
+  }
+}
+map.on('zoomend',renderMap);
 
 function renderList(filter=''){
   const q=filter.trim().toLowerCase();
@@ -27,7 +46,8 @@ function renderList(filter=''){
 $('#orteList').addEventListener('click',e=>{
   const b=e.target.closest('.orte-item');if(!b)return;
   const m=markers.get(b.dataset.id);if(!m)return;
-  map.flyTo(m.getLatLng(),17,{duration:.8});m.openPopup();
+  if(map.getZoom()===17&&layer.hasLayer(m)){map.panTo(m.getLatLng());m.openPopup();}
+  else{map.once('zoomend',()=>m.openPopup());map.flyTo(m.getLatLng(),17,{duration:.8});}
   if(window.matchMedia('(max-width: 900px)').matches)$('#orteMap').scrollIntoView({behavior:'smooth',block:'center'});
 });
 $('#orteSearch').addEventListener('input',e=>renderList(e.target.value));
@@ -36,11 +56,12 @@ try{
   const data=await fetch('standorte.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{standorte:[]});
   orte=Array.isArray(data.standorte)?data.standorte:[];
   for(const p of orte){
-    const m=L.marker([p.lat,p.lng],{icon:icon(p.nr),title:label(p)}).addTo(map);
+    const m=L.marker([p.lat,p.lng],{icon:icon(p.nr),title:label(p)});
     m.bindPopup(`<div class="orte-popup"><span class="eyebrow">PLAKATORT N°${String(p.nr).padStart(2,'0')}</span><strong>${esc(p.strasse||'Plakatfläche')}</strong><small>${esc(p.stadtteil||'Münster')}</small><a href="bestellen.html?service=verteilung">Hier plakatieren ↗</a></div>`);
     markers.set(p.id,m);
   }
   if(orte.length)map.fitBounds(orte.map(p=>[p.lat,p.lng]),{padding:[40,40],maxZoom:15});
+  renderMap();
   $('#orteCount').textContent=String(orte.length).padStart(2,'0');
   $('#orteDistricts').textContent=String(new Set(orte.map(p=>p.stadtteil).filter(Boolean)).size).padStart(2,'0');
   $('#orteStand').textContent=data.stand?new Date(data.stand).toLocaleDateString('de-DE',{month:'2-digit',year:'numeric'}):'–';

@@ -2,229 +2,180 @@
  "stand": "2026-10-29",
  "standorte": [
   {
-   "id": "8c2359abb3",
+   "id": "d5583ebdcf",
+   "nr": 1,
    "lat": 51.96919,
    "lng": 7.56234,
-   "erfasst": "2026-08-12",
    "strasse": "Dieckmannstraße",
-   "stadtteil": "Gievenbeck",
-   "nr": 1
+   "stadtteil": "Gievenbeck"
   },
   {
-   "id": "c71cf64862",
+   "id": "2c7096190f",
+   "nr": 2,
    "lat": 51.96913,
    "lng": 7.5779,
-   "erfasst": "2026-08-12",
    "strasse": "Enschedeweg",
-   "stadtteil": "Gievenbeck",
-   "nr": 2
+   "stadtteil": "Gievenbeck"
   },
   {
-   "id": "a10d147f36",
-   "lat": 51.97544,
-   "lng": 7.57437,
-   "erfasst": "2026-08-12",
+   "id": "f397b65e35",
+   "nr": 3,
+   "lat": 51.9755,
+   "lng": 7.57436,
    "strasse": "Gescherweg",
-   "stadtteil": "Gievenbeck",
-   "nr": 3
+   "stadtteil": "Gievenbeck"
   },
   {
-   "id": "b437d110c1",
-   "lat": 51.97556,
-   "lng": 7.57434,
-   "erfasst": "2026-08-12",
-   "strasse": "Gescherweg",
-   "stadtteil": "Gievenbeck",
-   "nr": 4
-  },
-  {
-   "id": "81d0bf2074",
+   "id": "a3ef1d90ff",
+   "nr": 4,
    "lat": 51.96231,
    "lng": 7.57607,
-   "erfasst": "2026-08-12",
    "strasse": "Gievenbecker Reihe",
-   "stadtteil": "Gievenbeck",
-   "nr": 5
+   "stadtteil": "Gievenbeck"
   },
   {
-   "id": "6da2facc1b",
-   "lat": 51.97273,
+   "id": "0a226ff6c0",
+   "nr": 5,
+   "lat": 51.97274,
    "lng": 7.56419,
-   "erfasst": "2026-08-12",
    "strasse": "Heekweg",
-   "stadtteil": "Gievenbeck",
-   "nr": 6
+   "stadtteil": "Gievenbeck"
   },
   {
-   "id": "687ca69e12",
+   "id": "6ed7853683",
+   "nr": 6,
    "lat": 51.97337,
    "lng": 7.56557,
-   "erfasst": "2026-08-12",
    "strasse": "Rüschhausweg",
-   "stadtteil": "Gievenbeck",
-   "nr": 7
+   "stadtteil": "Gievenbeck"
   },
   {
-   "id": "6610b1c80a",
+   "id": "070995751e",
+   "nr": 7,
    "lat": 51.97299,
    "lng": 7.57257,
-   "erfasst": "2026-08-12",
    "strasse": "Twenteweg",
-   "stadtteil": "Gievenbeck",
-   "nr": 8
+   "stadtteil": "Gievenbeck"
   },
   {
-   "id": "c21e1b55bf",
+   "id": "240b7ec046",
+   "nr": 8,
    "lat": 51.96807,
-   "lng": 7.56202,
-   "erfasst": "2026-08-12",
+   "lng": 7.56204,
    "strasse": "Wickenkamp",
-   "stadtteil": "Gievenbeck",
-   "nr": 9
+   "stadtteil": "Gievenbeck"
   },
   {
-   "id": "38583ad358",
+   "id": "4aefe08f63",
+   "nr": 9,
    "lat": 51.94483,
    "lng": 7.64555,
-   "erfasst": "2026-08-11",
    "strasse": "Albersloher Weg",
-   "stadtteil": "Gremmendorf",
-   "nr": 10
+   "stadtteil": "Gremmendorf"
   },
   {
-   "id": "33c1f75c87",
+   "id": "02f1b7245a",
+   "nr": 10,
    "lat": 51.95939,
    "lng": 7.6348,
-   "erfasst": "2026-10-07",
    "strasse": "Bahnhofstraße",
-   "stadtteil": "Innenstadtring",
-   "nr": 11
+   "stadtteil": "Innenstadtring"
   },
   {
-   "id": "3be25440c0",
+   "id": "3c045eff23",
+   "nr": 11,
    "lat": 51.95332,
    "lng": 7.64265,
-   "erfasst": "2026-08-11",
    "strasse": "Hansaring",
-   "stadtteil": "Innenstadtring",
-   "nr": 12
+   "stadtteil": "Innenstadtring"
   },
   {
-   "id": "3695e3a710",
+   "id": "b0d62b4ad6",
+   "nr": 12,
    "lat": 51.9591,
    "lng": 7.64727,
-   "erfasst": "2026-08-11",
    "strasse": "Sternstraße",
-   "stadtteil": "Innenstadtring",
-   "nr": 13
+   "stadtteil": "Innenstadtring"
   },
   {
-   "id": "b30a248055",
-   "lat": 51.95606,
-   "lng": 7.64382,
-   "erfasst": "2026-10-07",
-   "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring",
-   "nr": 14
-  },
-  {
-   "id": "3fff1f57cf",
+   "id": "b4e0f4d7be",
+   "nr": 13,
    "lat": 51.95563,
    "lng": 7.64542,
-   "erfasst": "2026-10-07",
    "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring",
-   "nr": 15
+   "stadtteil": "Innenstadtring"
   },
   {
-   "id": "8fcca99d86",
+   "id": "b470bb3684",
+   "nr": 14,
+   "lat": 51.95606,
+   "lng": 7.64382,
+   "strasse": "Wolbecker Straße",
+   "stadtteil": "Innenstadtring"
+  },
+  {
+   "id": "6722f3478b",
+   "nr": 15,
    "lat": 51.95662,
    "lng": 7.64239,
-   "erfasst": "2026-10-07",
    "strasse": "Wolbecker Straße",
-   "stadtteil": "Innenstadtring",
-   "nr": 16
+   "stadtteil": "Innenstadtring"
   },
   {
-   "id": "0ddf915b39",
-   "lat": 51.95684,
-   "lng": 7.65274,
-   "erfasst": "2026-08-11",
+   "id": "965b6dd648",
+   "nr": 16,
+   "lat": 51.95681,
+   "lng": 7.65278,
    "strasse": "Andreas-Hofer-Straße",
-   "stadtteil": "Mauritzviertel",
-   "nr": 17
+   "stadtteil": "Mauritzviertel"
   },
   {
-   "id": "d317941d42",
+   "id": "9bcf0505a9",
+   "nr": 17,
    "lat": 51.95842,
    "lng": 7.64741,
-   "erfasst": "2026-08-11",
    "strasse": "Hohenzollernring",
-   "stadtteil": "Mauritzviertel",
-   "nr": 18
+   "stadtteil": "Mauritzviertel"
   },
   {
-   "id": "87a01f5743",
-   "lat": 51.95676,
-   "lng": 7.65286,
-   "erfasst": "2026-08-11",
-   "strasse": "Manfred-von-Richthofen-Straße",
-   "stadtteil": "Mauritzviertel",
-   "nr": 19
-  },
-  {
-   "id": "31f298f669",
-   "lat": 51.95316,
-   "lng": 7.64003,
-   "erfasst": "2026-08-11",
-   "strasse": "Hansaring",
-   "stadtteil": "Mitte-Nordost",
-   "nr": 20
-  },
-  {
-   "id": "fd81c67d2a",
+   "id": "c1caa69e35",
+   "nr": 18,
    "lat": 51.95277,
    "lng": 7.6372,
-   "erfasst": "2026-10-12",
    "strasse": "Hansaring",
-   "stadtteil": "Mitte-Nordost",
-   "nr": 21
+   "stadtteil": "Mitte-Nordost"
   },
   {
-   "id": "e737034b8b",
+   "id": "befe363895",
+   "nr": 19,
+   "lat": 51.95316,
+   "lng": 7.64003,
+   "strasse": "Hansaring",
+   "stadtteil": "Mitte-Nordost"
+  },
+  {
+   "id": "3e4723a4c5",
+   "nr": 20,
    "lat": 51.96409,
    "lng": 7.64689,
-   "erfasst": "2026-08-11",
    "strasse": "Kaiser-Wilhelm-Ring",
-   "stadtteil": "Mitte-Nordost",
-   "nr": 22
+   "stadtteil": "Mitte-Nordost"
   },
   {
-   "id": "9fb4a28007",
-   "lat": 51.96796,
-   "lng": 7.65747,
-   "erfasst": "2026-08-11",
+   "id": "ced3edd8e1",
+   "nr": 21,
+   "lat": 51.96791,
+   "lng": 7.65746,
    "strasse": "Warendorfer Straße",
-   "stadtteil": "Mitte-Nordost",
-   "nr": 23
+   "stadtteil": "Mitte-Nordost"
   },
   {
-   "id": "500a14b318",
-   "lat": 51.96786,
-   "lng": 7.65735,
-   "erfasst": "2026-08-11",
-   "strasse": "Warendorfer Straße",
-   "stadtteil": "Mitte-Nordost",
-   "nr": 24
-  },
-  {
-   "id": "5ee87fe6a2",
+   "id": "a75cff82f7",
+   "nr": 22,
    "lat": 51.95584,
    "lng": 7.56753,
-   "erfasst": "2026-08-12",
    "strasse": "Ramertsweg",
-   "stadtteil": "Sentruper Höhe",
-   "nr": 25
+   "stadtteil": "Sentruper Höhe"
   }
  ]
 }

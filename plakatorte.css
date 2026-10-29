@@ -23,6 +23,9 @@
 .orte-pin{background:none;border:0}
 .orte-pin span{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--lime);color:#0c100e;font:700 11px Arial,sans-serif;border:2px solid #0c100e;box-shadow:0 0 0 2px var(--lime),0 6px 16px rgba(0,0,0,.5);transition:transform .15s}
 .orte-pin:hover span{transform:scale(1.15)}
+.orte-cluster{background:none;border:0}
+.orte-cluster span{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;background:rgba(217,243,106,.18);color:var(--lime);font:700 13px Arial,sans-serif;border:2px solid var(--lime);box-shadow:0 0 0 5px rgba(217,243,106,.12),0 8px 20px rgba(0,0,0,.5);backdrop-filter:blur(2px);cursor:pointer;transition:transform .15s,background .15s}
+.orte-cluster:hover span{transform:scale(1.08);background:var(--lime);color:#0c100e}
 .orte-map .leaflet-popup-content-wrapper,.orte-map .leaflet-popup-tip{background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 12px 30px rgba(0,0,0,.5)}
 .orte-map .leaflet-popup-content{margin:14px 16px}
 .orte-map a.leaflet-popup-close-button{color:var(--muted)}
